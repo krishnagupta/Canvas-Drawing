@@ -1,0 +1,36 @@
+.header {
+    padding: 2px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+.matrix_style{
+    display: inline-block;
+    width: 12px;
+  }
+
+.group_command label {
+    line-height: 52px;
+}
+
+.group_command input {
+    min-width: 300px;
+    margin-bottom: 0px;
+    border: 2px solid #1abc9c; 
+    padding: 10px;
+    margin: 10px 5px 0px;
+}
+
+.group_command input:focus {
+  outline: none;
+}
+
+.group_command ul {
+  color: red;
+  font-style: italic;
+  font-size: 0.8em;
+  list-style-type: none;
+  margin-top: 0px;
+}
